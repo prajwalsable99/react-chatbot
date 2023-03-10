@@ -1,24 +1,25 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-
+import ChatBotPage from './components/chatbot/ChatBotPage';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+      // <div className="relative h-screen w-screen bg-gray-600">
+      //   <div className="absolute bottom-0 right-0 p-4">
+
+      //   <ChatBotPage/>
+      //   </div>
+      // </div>
+        <div className='w-screen h-screen'>
+
+          <h1 className='text-center text-3xl bg-yellow-500 '>Bored ? i will give you random ideas to do </h1>
+
+      <div className='w-full h-full flex justify-center items-center bg-gray-700'>
+        <ChatBotPage/>
+      </div>
+        </div>
+
+
   );
 }
 
